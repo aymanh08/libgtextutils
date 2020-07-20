@@ -27,7 +27,7 @@
 
 int pipe_close ( int fd, pid_t pid ) 
 {
-	int i, status ;
+	int status ;
 	pid_t p;
 	int exit_code;
 
